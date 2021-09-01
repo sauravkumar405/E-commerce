@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+}
+header a:hover{
+    text-decoration: underline;
+    position: relative;
+    bottom: 3px;
+    font-weight: 500;   
+    font-size: 18px;
+}
+#logo-click{
+    display: block;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+    margin:20px auto;
+
+}
+nav{
+    margin: 20px auto;
+    margin-top: 0px;
+}
+header a{
+    margin:auto 5px;
+    font-family: 'Roboto', 'Noto', sans-serif;
+    line-height: 1.5;
+    padding: 9px 5px;
+    font-weight: 500;   
+    font-size: 13px;
+    text-decoration: none;
+    color: #202020;
+}
+.img{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:100%;
+}
+#img1{
+    background-image: url('https://shop.polymer-project.org/esm-bundled/images/mens_outerwear.jpg?_sw-precache=034f3d48b53419e0ee8897e1f1fa5770');
+}
+#img2{
+    background-image: url('https://shop.polymer-project.org/esm-bundled/images/ladies_outerwear.jpg?_sw-precache=790e95e6d417ab5447a37d5127b15919');
+}
+#img31{
+    background-image: url('https://shop.polymer-project.org/esm-bundled/images/mens_tshirts.jpg?_sw-precache=364adbf5dc1b6247ba58c5e3887bb63c');
+}
+#img32{
+    background-image: url('https://shop.polymer-project.org/esm-bundled/images/ladies_tshirts.jpg?_sw-precache=4fee73df809e6363d29c53c4616c89cd');
+}
+
+#sec3{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+p{
+    font-size: 1.3em;
+    font-weight: 500;
+    margin:32px auto;
+    text-align: center;
+    
+}
+button{
+    border:2px black solid;
+    height:45px;
+    width:170px;
+    text-align: center;
+    margin:40px auto;
+    display: block;
+}
+
+@media (min-width:650px){
+    .img{
+        height: 300px;
+    }
+
+}
+@media (max-width:649px){
+    .img{
+        height: 200px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    #logo{
+        width: 50px;
+        height: 50px;
+        margin:20px auto;
+    }
+    nav{
+        display: none;
+    }
+}

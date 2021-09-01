@@ -1,0 +1,192 @@
+*{
+    margin:0px;
+}
+
+
+header a:hover{
+    text-decoration: underline;
+    position: relative;
+    bottom: 3px;
+    font-weight: 500;   
+    font-size: 18px;
+}
+#logo-click{
+    display: block;
+    margin: auto;
+}
+#heading{
+    font-family: 'Roboto', 'Noto', sans-serif;
+    line-height: 1.5;
+    font-size: 1.3em;
+    font-weight: 500;
+    text-align: center;
+    margin:10px auto;
+    margin-bottom: 5px;
+    position: sticky;
+    top:0px;
+    background-color:white;
+}
+#item-count{
+    font-family: 'Roboto', 'Noto', sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align:center;
+    color:#757575;
+    margin:0px auto;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.label{
+    font-weight: bold;
+    color:#202020;
+    font-family: 'Roboto', 'Noto', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    margin:5px auto;
+    text-decoration: none;
+}
+.price{
+    font-family: 'Roboto', 'Noto', sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: center;
+    color:#757575;
+    margin:5px auto;
+}
+.images{
+    height:300px;
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding:10px;
+}
+
+#img1{
+    background-image: url('https://pbs.twimg.com/media/E8itk05XEAA1HH4?format=jpg&name=360x360');
+}
+#img2{
+    background-image: url('https://pbs.twimg.com/media/E8itk01WQA0Jlc-?format=jpg&name=360x360');
+}
+#img3{
+    background-image: url('https://pbs.twimg.com/media/EtkhfiYWgAExnIh?format=jpg&name=360x360'); 
+}
+#img4{
+    background-image: url('https://m.media-amazon.com/images/I/61hvOhJo7WL._AC_UL320_.jpg');
+}
+#imgX{
+    background-image: url('https://shop.polymer-project.org/esm-bundled/data/images/10-14133B.jpg');
+}
+#imgX{
+    background-image: url('');
+}
+#imgX{
+    background-image: url('');
+}
+#imgX{
+    background-image: url('');
+}
+#imgX{
+    background-image: url('');
+}
+#imgX{
+    background-image: url('');
+}
+#imgX{
+    background-image: url('');
+}
+#imgX{
+    background-image: url('');
+}
+#imgX{
+    background-image: url('');
+}
+#imgX{
+    background-image: url('');
+}
+
+
+@media (min-width:750px){
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+    }
+    
+    #logo{
+        width: 50px;
+        height: 50px;
+        margin:20px auto;
+
+    }
+    nav{
+        margin: 20px auto;
+        margin-top: 0px;
+    }
+    header a{
+        margin:auto 5px;
+        font-family: 'Roboto', 'Noto', sans-serif;
+        line-height: 1.5;
+        padding: 9px 5px;
+        font-weight: 500;   
+        font-size: 13px;
+        text-decoration: none;
+        color: #202020;
+    }
+ 
+    #main-img{
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width:100%;
+        background-image: url('335562.jpg');
+        /* background-image: url('https://shop.polymer-project.org/esm-bundled/images/mens_outerwear.jpg?_sw-precache=034f3d48b53419e0ee8897e1f1fa5770'); */
+        height:300px;   
+    }
+   
+    #main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:repeat(5, 1fr);
+        /* padding:50px 100px; */
+        row-gap: 20px;
+        column-gap: 10px;
+        width: 80%;
+        margin: auto;
+    }
+    
+    
+}
+
+@media (max-width:749px){
+
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    #logo{
+        width: 50px;
+        height: 50px;
+        margin:20px auto;
+    }
+    nav{
+        display: none;
+    }
+    #main-img{
+        display: none;
+    }
+    #main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:repeat(7, 1fr);
+        width: 90%;
+        margin: auto;
+        row-gap: 20px;
+        column-gap: 10px;
+    }
+
+}

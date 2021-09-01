@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - SHOP</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <header>
+        <a href="homepage.html" style="text-decoration: none; color: black;">SHOP</a>
+
+    </header>
+    <main>
+        <div id="headline">Checkout</div>
+        <p id="headline2">Shop is is demo app - form data will not be sent</p>
+        <div id="form-section">
+            <div id="left-form">
+                <p class="form-heading">Account Information</p>
+                <input type="email" placeholder="Email">
+                <input type="number" placeholder="Phone Number">
+                <p class="form-heading">Shipping Address</p>
+                <input type="text" placeholder="Address">
+                <input type="text" placeholder="City">
+                <div id="form1-multioption">
+                    
+                    <input type="text" placeholder="State/Province">
+                    <input type="number" placeholder="Zip/Postal Code" >
+                </div>
+                
+                <select>
+                    <option>United States</option>
+                    <option>Canada</option>
+                </select>
+                <p class="form-heading">Billing Address</p>
+                <div><checkbox></checkbox></div>
+            </div>
+            <div id="right-form">
+                <p class="form-heading">Payment Method</p>
+                <input placeholder="Cardholder Name" type="text">
+                <input placeholder="Card Number" type="number">
+                <div id="form2-multioption">
+                    <select type="month">
+                        <option value="">Jan</option>
+                        <option value="">Feb</option>
+                        <option value="">March</option>
+                        
+                    </select>
+                    <select type="year">
+                        <option value="">2022</option>
+                        <option value="">2023</option>
+                        <option value="">2024</option>
+                    </select>
+                    <input type="number" placeholder="CVV">
+                </div>
+                <p class="form-heading">Order Summary</p>
+                <div id="order-items">
+                    <div>Men's Tech Shell Full-Zip</div>
+                    <div>$200.80</div>
+                    <div>Ladies Colorblock Wind Jacket</div>
+                    <div>$45.90</div>
+                    <div id="second-last">Total</div>
+                    <div id="last">$338.00</div>
+                </div>
+                <button>PLACE ORDER</button>
+
+            </div>
+        </div>
+
+    </main>
+    <button id="place-order">PLACE ORDER</button>
+</body>
+</html>
