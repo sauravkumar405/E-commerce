@@ -8,7 +8,7 @@ header a:hover{
     font-weight: 500;   
     font-size: 18px;
 }
-#logo-click{
+.logo-click{
     display: block;
     margin: auto;
 }
@@ -19,7 +19,7 @@ header{
     height: 150px;
 }
 
-#logo{
+.logo{
     width: 50px;
     height: 50px;
     margin:20px auto;
@@ -45,20 +45,20 @@ header a{
     background-position: center center;
     width:100%;
 }
-#img1{
+.mens-outwear-image{
     background-image: url('https://shop.polymer-project.org/esm-bundled/images/mens_outerwear.jpg?_sw-precache=034f3d48b53419e0ee8897e1f1fa5770');
 }
-#img2{
+.ladies-outwear-image{
     background-image: url('https://shop.polymer-project.org/esm-bundled/images/ladies_outerwear.jpg?_sw-precache=790e95e6d417ab5447a37d5127b15919');
 }
-#img31{
+.mens-tshirt-image{
     background-image: url('https://shop.polymer-project.org/esm-bundled/images/mens_tshirts.jpg?_sw-precache=364adbf5dc1b6247ba58c5e3887bb63c');
 }
-#img32{
+.womens-tshirt-image{
     background-image: url('https://shop.polymer-project.org/esm-bundled/images/ladies_tshirts.jpg?_sw-precache=4fee73df809e6363d29c53c4616c89cd');
 }
 
-#sec3{
+.t-shirts{
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -93,7 +93,7 @@ button{
         display: flex;
         flex-direction: column;
     }
-    #logo{
+    .logo{
         width: 50px;
         height: 50px;
         margin:20px auto;
