@@ -1,0 +1,23 @@
+[33mcommit 9ec9939e42aa4202f511ccdcc327ac9ed31a17cc[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Saurabh Kumar <sauravkumar405@gmail.com>
+Date:   Mon Sep 6 09:28:14 2021 +0530
+
+    Reduced usage of ids
+
+[33mcommit 98874c6a7e7a66d7eabd53880fd318c3eb0dc3da[m[33m ([m[1;31morigin2/master[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Saurabh Kumar <sauravkumar405@gmail.com>
+Date:   Thu Sep 2 09:02:08 2021 +0530
+
+    fixed bug in product page
+
+[33mcommit 897dda142bf12e1f70eb8e1edf37a6f7030cfd96[m
+Author: Saurabh Kumar <sauravkumar405@gmail.com>
+Date:   Wed Sep 1 20:34:17 2021 +0530
+
+    correction in button
+
+[33mcommit 20c9b47b3e0f0034652263e72a1a0ae0db388507[m
+Author: Saurabh Kumar <sauravkumar405@gmail.com>
+Date:   Wed Sep 1 20:29:10 2021 +0530
+
+    Initial Commit
